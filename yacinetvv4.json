@@ -119,9 +119,10 @@
    "data": {
     "items": [
       {
+        "type": "webview",
         "image": "https://raw.githubusercontent.com/dimajadid/config/main/1.jpg",
         "title": "OSN CHANNELS",
-        "description": ""
+        "description": "https://www.youtube.com/watch?v=0Y-IRcUJi6o"
       },
       {
         "image": "https://raw.githubusercontent.com/dimajadid/config/main/2.jpg",
