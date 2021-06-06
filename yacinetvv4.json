@@ -119,15 +119,9 @@
    "data": {
     "items": [
       {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/yACINETV.png",
+        "image": "https://raw.githubusercontent.com/dimajadid/images/main/yacineapp.jpg",
         "title": "YACINE TV APP",
         "description": "Just like all other Free TV Streaming apps, Yacine TV does also provides a list of Channels from all Categories. Including Sports and Entertainment.Sports Channels: Bein News, Bein Sport 1 HD to Bein Sports 9 HD, AlkassChannels.Entertainment Channels: Arabic, OSN Channels, MBC Channels, French, Kids Entertainment channels,"
-      },
-      {
-        "type": "webview",
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/7.jpg",
-        "title": "BIEN CHANNELS",
-        "description": "https://goal.livekoora.online"
       },
       {
         "image": "https://raw.githubusercontent.com/dimajadid/config/main/1.jpg",
@@ -143,6 +137,12 @@
         "image": "https://raw.githubusercontent.com/dimajadid/config/main/3.jpg",
         "title": "ELKASS CHANNELS",
         "description": ""
+      },
+      {
+        "type": "webview",
+        "image": "https://raw.githubusercontent.com/dimajadid/config/main/7.jpg",
+        "title": "BIEN CHANNELS",
+        "description": "https://goal.livekoora.online"
       },
       {
         "type": "native_ad"
@@ -164,9 +164,10 @@
         "description": ""
       },
       {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/yACINETV.png",
-        "title": "TV Channels Tips",
-        "description": "Just like all other Free TV Streaming apps, Yacine TV does also provides a list of Channels from all Categories. Including Sports and Entertainment.Sports Channels: Bein News, Bein Sport 1 HD to Bein Sports 9 HD, AlkassChannels.Entertainment Channels: Arabic, OSN Channels, MBC Channels, French, Kids Entertainment channels,"
+       "type": "webview",
+        "image": "https://raw.githubusercontent.com/dimajadid/images/main/screen-2.jpg",
+        "title": "YACINE TV APP",
+        "description": "https://goal.livekoora.online"
       },
       {
         "type": "native_ad"
