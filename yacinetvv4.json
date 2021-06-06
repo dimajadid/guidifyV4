@@ -145,9 +145,6 @@
         "description": "https://goal.livekoora.online"
       },
       {
-        "type": "native_ad"
-      },
-      {
         "image": "https://raw.githubusercontent.com/dimajadid/config/main/4.jpg",
         "title": "MBC CHANNELS",
         "description": ""
@@ -168,9 +165,6 @@
         "image": "https://raw.githubusercontent.com/dimajadid/images/main/screen-2.jpg",
         "title": "YACINE TV APP",
         "description": "https://goal.livekoora.online"
-      },
-      {
-        "type": "native_ad"
       }
     ]
   }
