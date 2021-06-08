@@ -170,7 +170,11 @@
        "type": "webview",
         "image": "https://raw.githubusercontent.com/dimajadid/images/main/screen-2.jpg",
         "title": "YACINE TV APP",
-        "description": "https://koralivenew.com/matchs/"
+        "description": "https://koralivenew.com/matchs/",
+          "locker": {
+          "_comment": "type=rewarded_ad",
+          "type": "rewarded_ad"
+        }
       },
       {
         "type": "native_ad"
