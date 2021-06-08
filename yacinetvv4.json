@@ -147,7 +147,7 @@
 				"type": "webview",
 				"image": "https://raw.githubusercontent.com/dimajadid/config/main/7.jpg",
 				"title": "BIEN CHANNELS",
-				"description": "https://goal.livekoora.online"
+				"description": ""
 			},
 			{
 				"image": "https://raw.githubusercontent.com/dimajadid/config/main/4.jpg",
@@ -169,7 +169,7 @@
 				"type": "webview",
 				"image": "https://raw.githubusercontent.com/dimajadid/images/main/screen-2.jpg",
 				"title": "YACINE TV APP",
-				"description": "https://koralivenew.com/matchs/"
+				"description": ""
 			},
 			{
 				"type": "native_ad"
