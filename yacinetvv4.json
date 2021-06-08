@@ -12,10 +12,10 @@
 		"ads": {
 			"enabled": true,
 			"mode_ads_banner": "facebook",
-			"mode_ads_interstitial": "admob",
-			"mode_ads_native": "admob",
+			"mode_ads_interstitial": "facebook",
+			"mode_ads_native": "facebook",
 			"mode_ads_mediumrect": "facebook",
-			"mode_ads_rewarded": "admob",
+			"mode_ads_rewarded": "facebook",
 			"admob": {
 				"admob_banner_id": "ca-app-pub-9450354479559142/2085498207",
 				"admob_interstitial_id": [
@@ -29,8 +29,8 @@
 				"admob_unit_id": ""
 			},
 			"facebook": {
-				"facebook_banner_id": "227026798942896_227354688910107",
-				"facebook_interstitial_id": "227026798942896_227355195576723",
+				"facebook_banner_id": "227026798942896_228602518785324",
+				"facebook_interstitial_id": "227026798942896_228602875451955",
 				"facebook_native_id": "227026798942896_227355585576684",
 				"facebook_mediumrect_id": "227026798942896_227356332243276",
 				"facebook_rewarded_id": "VID_HD_9_16_39S_APP_INSTALL#173186393601951_356298065290782"
