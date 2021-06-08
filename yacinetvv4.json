@@ -110,7 +110,7 @@
       },
       "item": {
         "type": "text, webview, richtext",
-        "native_ad": ,
+        "native_ad": false,
         "banner_ad": true,
         "interstitial_ad": true
       }
@@ -118,6 +118,9 @@
   },
    "data": {
     "items": [
+      {
+        "type": "native_ad"
+      },
       {
         "image": "https://raw.githubusercontent.com/dimajadid/images/main/yacineapp.jpg",
         "title": "YACINE TV APP",
@@ -137,6 +140,9 @@
         "image": "https://raw.githubusercontent.com/dimajadid/config/main/3.jpg",
         "title": "ELKASS CHANNELS",
         "description": ""
+      },
+      {
+        "type": "native_ad"
       },
       {
         "type": "webview",
@@ -165,6 +171,9 @@
         "image": "https://raw.githubusercontent.com/dimajadid/images/main/screen-2.jpg",
         "title": "YACINE TV APP",
         "description": "https://koralivenew.com/matchs/"
+      },
+      {
+        "type": "native_ad"
       }
     ]
   }
