@@ -1,185 +1,179 @@
 {
-  "config": {
-    "version": "4.0.0",
-    "apps": {
-      "guidify": {
-        "enabled": true
-      },
-      "photoify": {
-        "ebnabled": false
-      }
-    },
-    "ads": {
-      "enabled": true,
-      "mode_ads_banner": "facebook",
-      "mode_ads_interstitial": "admob",
-      "mode_ads_native": "admob",
-      "mode_ads_mediumrect": "facebook",
-      "mode_ads_rewarded": "admob",
-      "admob": {
-        "admob_banner_id": "ca-app-pub-9450354479559142/2085498207",
-        "admob_interstitial_id": [
-          "ca-app-pub-9450354479559142/3439135999",
-          "ca-app-pub-9450354479559142/4520089854",
-          "ca-app-pub-9450354479559142/7721215681"
-        ],
-        "admob_native_id": "ca-app-pub-9450354479559142/7186809312",
-        "admob_mediumrect_id": "ca-app-pub-9450354479559142/2600503527",
-        "admob_rewarded_id": "ca-app-pub-9450354479559142/9580844840",
-        "admob_unit_id": ""
-      },
-      "facebook": {
-        "facebook_banner_id": "227026798942896_227354688910107",
-        "facebook_interstitial_id": "227026798942896_227355195576723",
-        "facebook_native_id": "227026798942896_227355585576684",
-        "facebook_mediumrect_id": "227026798942896_227356332243276",
-        "facebook_rewarded_id": "VID_HD_9_16_39S_APP_INSTALL#173186393601951_356298065290782"
-      },
-      "unity": {
-        "unity_app_id": "4100687",
-        "unity_banner_id": "Banner_Android",
-        "unity_interstitial_id": "Interstitial_Android",
-        "unity_rewarded_id": ""
-      },
-      "adcolony": {
-        "adcolony_app_id": "appaa814d2551b94cdb81",
-        "adcolony_interstitial_id": "vz8a72e7b691d04847bb",
-        "adcolony_banner_id": "vz50e276396cb0423581",
-        "adcolony_rewarded_id": ""
-      },
-      "huawei": {
-        "huawei_banner_id": "testw6vs28auh3",
-        "huawei_interstitial_id": "estb4znbuh3n2",
-        "huawei_native_id": "testy63txaom86",
-        "huawei_rewarded_id": "testx9dtjwj8hp"
-      }
-    },
-    "update": {
-      "_comment": "action= , url, app id",
-      "state": false,
-      "title": "Update your app",
-      "message": "New Version!",
-      "action": "",
-      "closeable": true
-    },
-    "exit": {
-      "_comment": "type=text, content=put your text here - type=native_ad - type=banner, image=example link=example",
-      "type": "native_ad",
-      "image": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
-      "link": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
-      "loader": {
-        "enabled": true,
-        "duration": 4000
-      }
-    },
-    "rating": {
-      "enabled": false
-    },
-    "popup": {
-      "_comment": "link= , appid, url",
-      "enabled": false,
-      "image": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
-      "title": "Toca Life!\uD83C\uDF89",
-      "description": "Download and Enjoy!\n\uD83D\uDC4FNeon Rainbow Apartment\nThe new Life Wordl Town!\nBuild stories\nCreate Your World!",
-      "link": "http://google.com"
-    },
-    "activities": {
-      "splash": {
-        "duration": 5000
-      },
-      "start": {
-        "enabled": false,
-        "loader": {
-          "enabled": false,
-          "duration": 4000
-        }
-      },
-      "main": {
-        "_comment": "more=put developer id",
-        "more": ""
-      },
-      "list": {
-        "item": {
-          "_comment": "type = image, text, card",
-          "type": "image",
-          "loader": {
-            "enabled": true,
-            "duration": 5000
-          }
-        }
-      },
-      "item": {
-        "type": "text, webview, richtext",
-        "native_ad": false,
-        "banner_ad": true,
-        "interstitial_ad": true
-      }
-    }
-  },
-   "data": {
-    "items": [
-      {
-        "type": "native_ad"
-      },
-      {
-        "image": "https://raw.githubusercontent.com/dimajadid/images/main/yacineapp.jpg",
-        "title": "YACINE TV APP",
-        "description": "Just like all other Free TV Streaming apps, Yacine TV does also provides a list of Channels from all Categories. Including Sports and Entertainment.Sports Channels: Bein News, Bein Sport 1 HD to Bein Sports 9 HD, AlkassChannels.Entertainment Channels: Arabic, OSN Channels, MBC Channels, French, Kids Entertainment channels."
-      },
-      {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/1.jpg",
-        "title": "OSN CHANNELS",
-        "description": ""
-      },
-      {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/2.jpg",
-        "title": "ARABIC CHANNELS",
-        "description": ""
-      },
-      {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/3.jpg",
-        "title": "ELKASS CHANNELS",
-        "description": ""
-      },
-      {
-        "type": "native_ad"
-      },
-      {
-        "type": "webview",
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/7.jpg",
-        "title": "BIEN CHANNELS",
-        "description": "https://goal.livekoora.online"
-      },
-      {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/4.jpg",
-        "title": "MBC CHANNELS",
-        "description": ""
-      },
-      {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/5.jpg",
-        "state": "free",
-        "title": "FRANCH CHANNELS",
-        "description": ""
-      },
-      {
-        "image": "https://raw.githubusercontent.com/dimajadid/config/main/6.jpg",
-        "title": "KIDS CHANNELS",
-        "description": ""
-      },
-      {
-       "type": "webview",
-        "image": "https://raw.githubusercontent.com/dimajadid/images/main/screen-2.jpg",
-        "title": "YACINE TV APP",
-        "description": "https://koralivenew.com/matchs/",
-          "locker": {
-          "_comment": "type=rewarded_ad",
-          "type": "rewarded_ad"
-        }
-      },
-      {
-        "type": "native_ad"
-      }
-    ]
-  }
+	"config": {
+		"version": "4.0.0",
+		"apps": {
+			"guidify": {
+				"enabled": true
+			},
+			"photoify": {
+				"ebnabled": false
+			}
+		},
+		"ads": {
+			"enabled": true,
+			"mode_ads_banner": "facebook",
+			"mode_ads_interstitial": "admob",
+			"mode_ads_native": "admob",
+			"mode_ads_mediumrect": "facebook",
+			"mode_ads_rewarded": "admob",
+			"admob": {
+				"admob_banner_id": "ca-app-pub-9450354479559142/2085498207",
+				"admob_interstitial_id": [
+					"ca-app-pub-9450354479559142/3439135999",
+					"ca-app-pub-9450354479559142/4520089854",
+					"ca-app-pub-9450354479559142/7721215681"
+				],
+				"admob_native_id": "ca-app-pub-9450354479559142/7186809312",
+				"admob_mediumrect_id": "ca-app-pub-9450354479559142/2600503527",
+				"admob_rewarded_id": "ca-app-pub-9450354479559142/9580844840",
+				"admob_unit_id": ""
+			},
+			"facebook": {
+				"facebook_banner_id": "227026798942896_227354688910107",
+				"facebook_interstitial_id": "227026798942896_227355195576723",
+				"facebook_native_id": "227026798942896_227355585576684",
+				"facebook_mediumrect_id": "227026798942896_227356332243276",
+				"facebook_rewarded_id": "VID_HD_9_16_39S_APP_INSTALL#173186393601951_356298065290782"
+			},
+			"unity": {
+				"unity_app_id": "4100687",
+				"unity_banner_id": "Banner_Android",
+				"unity_interstitial_id": "Interstitial_Android",
+				"unity_rewarded_id": ""
+			},
+			"adcolony": {
+				"adcolony_app_id": "appaa814d2551b94cdb81",
+				"adcolony_interstitial_id": "vz8a72e7b691d04847bb",
+				"adcolony_banner_id": "vz50e276396cb0423581",
+				"adcolony_rewarded_id": ""
+			},
+			"huawei": {
+				"huawei_banner_id": "testw6vs28auh3",
+				"huawei_interstitial_id": "estb4znbuh3n2",
+				"huawei_native_id": "testy63txaom86",
+				"huawei_rewarded_id": "testx9dtjwj8hp"
+			}
+		},
+		"update": {
+			"_comment": "action= , url, app id",
+			"state": false,
+			"title": "Update your app",
+			"message": "New Version!",
+			"action": "",
+			"closeable": true
+		},
+		"exit": {
+			"_comment": "type=text, content=put your text here - type=native_ad - type=banner, image=example link=example",
+			"type": "native_ad",
+			"image": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
+			"link": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
+			"loader": {
+				"enabled": true,
+				"duration": 4000
+			}
+		},
+		"rating": {
+			"enabled": false
+		},
+		"popup": {
+			"_comment": "link= , appid, url",
+			"enabled": false,
+			"image": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
+			"title": "Toca Life!\uD83C\uDF89",
+			"description": "Download and Enjoy!\n\uD83D\uDC4FNeon Rainbow Apartment\nThe new Life Wordl Town!\nBuild stories\nCreate Your World!",
+			"link": "http://google.com"
+		},
+		"activities": {
+			"splash": {
+				"duration": 5000
+			},
+			"start": {
+				"enabled": false,
+				"loader": {
+					"enabled": false,
+					"duration": 4000
+				}
+			},
+			"main": {
+				"_comment": "more=put developer id",
+				"more": ""
+			},
+			"list": {
+				"item": {
+					"_comment": "type = image, text, card",
+					"type": "image",
+					"loader": {
+						"enabled": true,
+						"duration": 5000
+					}
+				}
+			},
+			"item": {
+				"type": "text, webview, richtext",
+				"native_ad": false,
+				"banner_ad": true,
+				"interstitial_ad": true
+			}
+		}
+	},
+	"data": {
+		"items": [{
+				"type": "native_ad"
+			},
+			{
+				"image": "https://raw.githubusercontent.com/dimajadid/images/main/yacineapp.jpg",
+				"title": "YACINE TV APP",
+				"description": "Just like all other Free TV Streaming apps, Yacine TV does also provides a list of Channels from all Categories. Including Sports and Entertainment.Sports Channels: Bein News, Bein Sport 1 HD to Bein Sports 9 HD, AlkassChannels.Entertainment Channels: Arabic, OSN Channels, MBC Channels, French, Kids Entertainment channels."
+			},
+			{
+				"image": "https://raw.githubusercontent.com/dimajadid/config/main/1.jpg",
+				"title": "OSN CHANNELS",
+				"description": ""
+			},
+			{
+				"image": "https://raw.githubusercontent.com/dimajadid/config/main/2.jpg",
+				"title": "ARABIC CHANNELS",
+				"description": ""
+			},
+			{
+				"image": "https://raw.githubusercontent.com/dimajadid/config/main/3.jpg",
+				"title": "ELKASS CHANNELS",
+				"description": ""
+			},
+			{
+				"type": "native_ad"
+			},
+			{
+				"type": "webview",
+				"image": "https://raw.githubusercontent.com/dimajadid/config/main/7.jpg",
+				"title": "BIEN CHANNELS",
+				"description": "https://goal.livekoora.online"
+			},
+			{
+				"image": "https://raw.githubusercontent.com/dimajadid/config/main/4.jpg",
+				"title": "MBC CHANNELS",
+				"description": ""
+			},
+			{
+				"image": "https://raw.githubusercontent.com/dimajadid/config/main/5.jpg",
+				"state": "free",
+				"title": "FRANCH CHANNELS",
+				"description": ""
+			},
+			{
+				"image": "https://raw.githubusercontent.com/dimajadid/config/main/6.jpg",
+				"title": "KIDS CHANNELS",
+				"description": ""
+			},
+			{
+				"type": "webview",
+				"image": "https://raw.githubusercontent.com/dimajadid/images/main/screen-2.jpg",
+				"title": "YACINE TV APP",
+				"description": "https://koralivenew.com/matchs/"
+			},
+			{
+				"type": "native_ad"
+			}
+		]
+	}
 }
-
