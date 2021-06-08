@@ -11,8 +11,8 @@
 		},
 		"ads": {
 			"enabled": true,
-			"mode_ads_banner": "facebook",
-			"mode_ads_interstitial": "facebook",
+			"mode_ads_banner": "unity",
+			"mode_ads_interstitial": "unity",
 			"mode_ads_native": "facebook",
 			"mode_ads_mediumrect": "facebook",
 			"mode_ads_rewarded": "facebook",
@@ -36,9 +36,9 @@
 				"facebook_rewarded_id": "VID_HD_9_16_39S_APP_INSTALL#173186393601951_356298065290782"
 			},
 			"unity": {
-				"unity_app_id": "4100687",
-				"unity_banner_id": "Banner_Android",
-				"unity_interstitial_id": "Interstitial_Android",
+				"unity_app_id": "4161963",
+				"unity_banner_id": "Bannerad",
+				"unity_interstitial_id": "Interstitialad",
 				"unity_rewarded_id": ""
 			},
 			"adcolony": {
