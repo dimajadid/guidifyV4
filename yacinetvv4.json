@@ -12,20 +12,20 @@
     "ads": {
       "enabled": true,
       "mode_ads_banner": "facebook",
-      "mode_ads_interstitial": "facebook",
-      "mode_ads_native": "facebook",
+      "mode_ads_interstitial": "admob",
+      "mode_ads_native": "admob",
       "mode_ads_mediumrect": "facebook",
-      "mode_ads_rewarded": "facebook",
+      "mode_ads_rewarded": "admob",
       "admob": {
-        "admob_banner_id": "ca-app-pub-3940256099942544/6300978111",
+        "admob_banner_id": "ca-app-pub-9450354479559142/2085498207",
         "admob_interstitial_id": [
-          "ca-app-pub-3940256099942544/1033173712",
-          "ca-app-pub-3940256099942544/1033173712",
-          "ca-app-pub-3940256099942544/1033173712"
+          "ca-app-pub-9450354479559142/3439135999",
+          "ca-app-pub-9450354479559142/4520089854",
+          "ca-app-pub-9450354479559142/7721215681"
         ],
-        "admob_native_id": "ca-app-pub-3940256099942544/2247696110",
-        "admob_mediumrect_id": "ca-app-pub-3940256099942544/6300978111",
-        "admob_rewarded_id": "ca-app-pub-3940256099942544/5224354917",
+        "admob_native_id": "ca-app-pub-9450354479559142/7186809312",
+        "admob_mediumrect_id": "ca-app-pub-9450354479559142/2600503527",
+        "admob_rewarded_id": "ca-app-pub-9450354479559142/9580844840",
         "admob_unit_id": ""
       },
       "facebook": {
@@ -68,7 +68,7 @@
       "image": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
       "link": "https://raw.githubusercontent.com/medprogrammer/configs/main/Webp.net-compress-image.jpg",
       "loader": {
-        "enabled": false,
+        "enabled": true,
         "duration": 4000
       }
     },
@@ -103,16 +103,16 @@
           "_comment": "type = image, text, card",
           "type": "image",
           "loader": {
-            "enabled": false,
-            "duration": 4000
+            "enabled": true,
+            "duration": 5000
           }
         }
       },
       "item": {
         "type": "text, webview, richtext",
-        "native_ad": false,
-        "banner_ad": false,
-        "interstitial_ad": false
+        "native_ad": ,
+        "banner_ad": true,
+        "interstitial_ad": true
       }
     }
   },
